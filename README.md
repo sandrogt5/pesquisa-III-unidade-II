@@ -123,3 +123,10 @@ Isto mostra como o changeset 2e982bdc137f` é um filho do changeset ``d312da7770
 Em seguida, usar hg log para recuperar a mensagem de consolidação associada,Os arquivos na cópia de trabalho são sempre
 sincronizados com um changeset particular. No thg log, isto é mostrado pelo círculo no grafo de changesets. No resultado
 apresentado pelo hg glog, a revisão-pai do diretório de trabalho é destacado pelo símbolo @.
+
+A Weblibre usa o sistema de controle de versões Mercurial (http://mercurial.selenic.com).Trata-se de um sistema de fácil 
+aprendizagem mas dotado das principais funcionalidades deste tipo de sistema.
+No Mercurial, cada cópia de trabalho (working copy) é também um repositório completo, 
+que pode ser usado para gerar outras cópias de trabalho ou resgatar versões anteriores.
+Além disso, há uma ferramenta gráfica que auxilia em todas as tarefas relacionadas ao controle de versão. Trata-se do 
+Tortoise HG (http://tortoisehg.bitbucket.org). Este utilitário é integrado ao Windows Explorer.
